@@ -14,7 +14,8 @@
 * background-image
 
 #### background-clip
-*规定背景的绘制区域*
+*规定背景的绘制区域*<br>
+
 **css syntax:**
 ```css
 background-clip:border-box|padding-box|content-box;
@@ -31,7 +32,8 @@ background-clip:border-box|padding-box|content-box;
 
 #### background-origin
 *规定背景图片的定位区域。*
-*背景图片可以放置于 content-box、padding-box 或 border-box 区域。*
+*背景图片可以放置于 content-box、padding-box 或 border-box 区域。*<br>
+
 **css syntax:**
 ```css
 background-clip:border-box|padding-box|content-box;//与background-clip语法一致
@@ -63,9 +65,17 @@ div
 
 #### background-size
 *规定背景图像的尺寸*<br>
-	**javascript syntax:** object.style.backgroundSize = '60px 80px' or object.style['background-size'] = "60px 80px"
+
+**javascript syntax:**
+```javascript
+object.style.backgroundSize = '60px 80px'
+or
+object.style['background-size'] = "auto 80px"
+```
 
 **css syntax:**
 ```css
 background-size: length | percentage | cover | contain
 ```
+[水平复制4次][bgSize]
+[bgSize]: http://www.w3school.com.cn/tiy/t.asp?f=css3_background-size3 "拉伸背景图像，对背景图像水平复制四次"
