@@ -20,9 +20,22 @@
 ```css
 background-clip:border-box|padding-box|content-box;
 ```
-> ##### code to test the result
+
+code to test the effect
+```css
+div
+{
+	width:300px;
+	height:300px;
+	padding:50px;
+	background-color:yellow;
+	background-clip:border-box;
+	border:5px dashed #92b901;
+}
+```
+
+> ##### code to test the effect
 >> /* div style */
->>
 >>>		width:300px;
 >>>		height:300px;
 >>>		padding:50px;
@@ -32,7 +45,7 @@ background-clip:border-box|padding-box|content-box;
 
 #### background-origin
 *规定背景图片的定位区域。*
-*背景图片可以放置于 content-box、padding-box 或 border-box 区域。*<br>
+*背景图片可以放置于`content-box`、`padding-box`或`border-box`区域。*<br>
 
 **css syntax:**
 ```css
@@ -42,7 +55,7 @@ background-clip:border-box|padding-box|content-box;//与background-clip语法一
 [bgOrigin]:http://www.w3school.com.cn/i/background-origin.gif "background-origin区域示意图"
 
 
-**code to test the result**
+**code to test the effect**
 ```css
 div
 {
