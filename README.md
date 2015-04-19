@@ -14,8 +14,9 @@
 * background-image
 
 #### background-clip
+*规定背景的绘制区域*
 ```css
-background-clip:border-box|padding-box|content-box;//syntax
+background-clip:border-box|padding-box|content-box;//css
 ```
 > ##### code to test the result
 >> /* div style */
@@ -26,3 +27,34 @@ background-clip:border-box|padding-box|content-box;//syntax
 >>>		background-color:yellow;
 >>>		background-clip:border-box;
 >>>		border:5px dashed #92b901;
+
+#### background-origin
+*规定背景图片的定位区域。*
+*背景图片可以放置于 content-box、padding-box 或 border-box 区域。*
+```css
+background-clip:border-box|padding-box|content-box;
+```
+[![bgOrigin]](http://www.w3school.com.cn/tiy/t.asp?f=css3_background-origin)
+[bgOrigin]:http://www.w3school.com.cn/i/background-origin.gif "background-origin区域示意图"
+
+
+```css
+/* code to test the result */
+div
+{
+	border:10px dotted black;
+	padding:35px;
+	background-image:url('/i/bg_flower.gif');
+	background-repeat:no-repeat;
+	background-position:left;
+}
+#div1
+{
+	background-clip:border-box;
+	background-origin:border-box;
+}
+#div2
+{
+	background-origin:content-box;
+}
+```
