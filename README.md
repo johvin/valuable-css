@@ -1,5 +1,5 @@
 # valuable-css(不熟悉但有用的css)
-=================
+-----------------
 *本文记录了本人在日常code中使用频率较低，但却很有用的一些css*<br>
 
 ### background属性
@@ -21,9 +21,9 @@ background-clip:border-box|padding-box|content-box;//syntax
 > ##### code to test the result
 >> /* div style */
 >>
->>>		width:300px;
->>>		height:300px;
->>>		padding:50px;
->>>		background-color:yellow;
->>>		background-clip:border-box;
->>>		border:5px dashed #92b901;
+>>>	width:300px;
+>>>	height:300px;
+>>>	padding:50px;
+>>>	background-color:yellow;
+>>>	background-clip:border-box;
+>>>	border:5px dashed #92b901;
