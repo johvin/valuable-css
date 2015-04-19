@@ -90,5 +90,5 @@ object.style['background-size'] = "auto 80px"
 ```css
 background-size: length | percentage | cover | contain
 ```
-[水平复制4次][bgSize]
+[水平复制4次效果][bgSize]
 [bgSize]: http://www.w3school.com.cn/tiy/t.asp?f=css3_background-size3 "拉伸背景图像，对背景图像水平复制四次"
